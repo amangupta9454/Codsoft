@@ -1,0 +1,177 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6e6e6;
+} 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(11, 78, 78);
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline: 20px;
+    color: white;
+}
+ul li a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.logo{
+    font-size: 22px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background-color: rgb(61, 200, 255);
+     color: white;
+     height: 340px;
+    
+} 
+.mainText h1{
+    font-size: 55px;
+}
+.mainText h3{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.mainText button{
+    width: 140px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+}
+.mainText button:hover{
+    border: 2px solid black;
+    background-color: transparent;
+}
+.teams{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.teams .card{
+    width: 300px;
+    height: 400px;
+    background-color: #956ffd;
+    border-radius: 5px;
+    margin-inline: 20px;
+    margin-top: 22px;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+.card p{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.head{
+    text-align: center;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    background-color: bisque;
+    width: fit-content;
+    text-align: center;
+    padding: 40px;
+}
+.speciality{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.speciality .spCard{
+    width: 200px;
+   
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 22px;
+
+    margin-inline: 20px;
+}
+.spCard img{
+    width: 200px;
+}
+.spCard p{
+    margin-top: 11px;
+}
+
+.contact{
+    width: 650px;
+    
+    background-color: #98b4ff;
+    padding: 1px;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+}
+.contact input{
+    width: 100%;
+    font-size: 22px;
+    padding: -100px;
+    margin-top: 22px;
+    border: none;
+    color: white;
+    outline: black;
+    background-color: #64ff71;
+    border-radius: 2px;
+}
+.contact button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(13, 98, 98);
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-top: 22px;
+}
+.contact h1{
+    margin-top: -40px;
+    color: rgb(16, 103, 103);
+}
+.footer{
+    display: inline-flex;
+    margin-left: -150px;
+    float: left;
+    width: 150%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 66px;
+    background-color: rgb(11, 76, 76);
+    color: white;
+}
+.text p{
+    margin-top: 2px;
+} 
+
